@@ -6,5 +6,5 @@ from broker.Order import OrderClass
 secret=SecretsHolder.SecretsHolderClass('encrypted key');
 
 main=MainClass.MainClass();
-main.run([Tokens.usdtrls],secretkey=secret);
+main.run([[Tokens.btcusdt,Tokens.btcusdt]],secretkey=secret);
 

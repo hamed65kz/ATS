@@ -9,3 +9,4 @@ tether=TokenClass('usdt','Tether');
 btcrls=TokenPairClass(btc,rls,'BTCRLS');
 usdtrls=TokenPairClass(tether,rls,'USDTRLS');
 usdtirt=TokenPairClass(tether,irt,'USDTIRT');
+btcusdt=TokenPairClass(btc,tether,'BTCUSDT');
